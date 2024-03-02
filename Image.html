@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .container {
+        height: 30px;
+        width: 30px;
+        border: 3px solid;
+        overflow: hidden;
+        background-image: url(download.jpeg);
+        margin: auto;
+      }
+
+      .container:hover {
+        height: 150px;
+        width: 150px;
+      }
+
+      p {
+        visibility: hidden;
+      }
+
+      .container:hover p {
+        visibility: visible;
+        font-size: x-large;
+        text-align: center;
+      }
+
+      span {
+        border: 1px solid;
+        border-radius: 5%;
+        background-color: rgba(0, 0, 255, 0.507);
+        color: black;
+        margin-left: 538px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <span>My Image </span>
+    </h1>
+    <div class="container">
+      <div class="box">
+        <p>I am an Image</p>
+      </div>
+    </div>
+  </body>
+</html>
